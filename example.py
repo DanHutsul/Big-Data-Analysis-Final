@@ -1,7 +1,4 @@
 import praw
-import config
-import time
-import os
 # !WARNING!
 # This code is not meant to work without inputting parameters
 # I`m not putting them in because they hold confidential info (username, password, client id and secret)

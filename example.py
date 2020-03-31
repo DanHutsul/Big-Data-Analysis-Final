@@ -8,13 +8,13 @@ def bot_login():
 	password = "password"
 	client_id = "idGoesHere"
 	client_secret = "secretGoesHere"
-	r = praw.Reddit(username = username,
+	my_info = praw.Reddit(username = username,
 				password = password,
 				client_id = client_id,
 				client_secret = client_secret,
 				user_agent = "Some item v1.0")
 	print "Logged in!"
+	return my_info
 
-	return r
 if __name__ == "__main__":
 	bot_login()

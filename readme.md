@@ -28,11 +28,11 @@ npm test
     * WIP
 ## Meta
 BIG WIP
-Your Name – [@YourTwitter](https://twitter.com/dbader_org) – YourEmail@example.com
+Your Name – [@YourTwitter](https://twitter.com/dbader_org) – dan.hutsul@gmail.com
 
 Distributed under the XYZ license. See ``LICENSE`` for more information.
 
-[https://github.com/yourname/github-link](https://github.com/dbader/)
+[https://github.com/yourname/github-link](https://github.com/DanHutsul/)
 
 ## Contributing
 

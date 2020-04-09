@@ -1,9 +1,11 @@
 # Positivity_bot
+[![Build Status]()]()
+[![PyPI]()]()
+[![PyPI - Python Version]()]()
+[![Coverage Status]()]()
 > A reddit bot that measures the positivity level of a comment section.
 
 Some stuff will be here shortly
-
-![](header.png)
 
 ## Usage example
 
@@ -25,7 +27,7 @@ npm test
 * 0.0.1
     * WIP
 ## Meta
-
+BIG WIP
 Your Name – [@YourTwitter](https://twitter.com/dbader_org) – YourEmail@example.com
 
 Distributed under the XYZ license. See ``LICENSE`` for more information.

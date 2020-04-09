@@ -28,7 +28,7 @@ npm test
     * WIP
 ## Meta
 BIG WIP
-Your Name – [@YourTwitter](https://twitter.com/dbader_org) – dan.hutsul@gmail.com
+Dan – [idonthaveatwitter]() – dan.hutsul@gmail.com
 
 Distributed under the XYZ license. See ``LICENSE`` for more information.
 
@@ -38,11 +38,3 @@ Distributed under the XYZ license. See ``LICENSE`` for more information.
 
 WIP
 
-<!-- Markdown link & img dfn's -->
-The links are WIP
-[npm-image]: https://img.shields.io/npm/v/datadog-metrics.svg?style=flat-square
-[npm-url]: https://npmjs.org/package/datadog-metrics
-[npm-downloads]: https://img.shields.io/npm/dm/datadog-metrics.svg?style=flat-square
-[travis-image]: https://img.shields.io/travis/dbader/node-datadog-metrics/master.svg?style=flat-square
-[travis-url]: https://travis-ci.org/dbader/node-datadog-metrics
-[wiki]: https://github.com/yourname/yourproject/wiki

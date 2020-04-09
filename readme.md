@@ -1,9 +1,5 @@
-# Product Name
-> Short blurb about what your product does.
-
-[![NPM Version][npm-image]][npm-url]
-[![Build Status][travis-image]][travis-url]
-[![Downloads Stats][npm-downloads]][npm-url]
+# Positivity_bot
+> A reddit bot that measures the positivity level of a comment section.
 
 One to two paragraph statement about your product and what it does.
 

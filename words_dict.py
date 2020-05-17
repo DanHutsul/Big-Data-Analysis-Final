@@ -1,6 +1,5 @@
 import praw
-import re
-
+import string
 
 class words_dict:
 
@@ -33,7 +32,6 @@ class words_dict:
         """
         # Get all words
         words = self._simplify()
-
         for word in words:
             if self._negative(word):
                 if word not in self.negative:
@@ -63,9 +61,11 @@ class words_dict:
             submissionList.append(comment.body)
         words_list = []
         for comment in submissionList:
+            replacement = string.punctuation.replace("-", "")
+            comment = comment.translate(str.maketrans('', '', replacement))
             res = comment.split()
             for i in res:
-                words_list.append(i)
+                words_list.append(i.lower())
         return words_list
 
     def _negative(self, word):
@@ -75,8 +75,7 @@ class words_dict:
         word : str()
         return : bool()
         """
-        if re.search(r"(?:-^|(?<=\s))" + word +
-                     r"(?=\s|$-)", self.negative_words):
+        if self.search("negative-words.txt", word):
             return True
         return False
 
@@ -87,7 +86,13 @@ class words_dict:
         word : str()
         return : bool()
         """
-        if re.search(r"(?:-^|(?<=\s))" + word +
-                     r"(?=\s|$-)", self.positive_words):
+        if self.search("positive-words.txt", word):
             return True
         return False
+
+    def search(self, file, word):
+        with open(file, "r") as f:
+            for line in f:
+                if line[:-1] == word:
+                    return True
+            return False

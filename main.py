@@ -9,11 +9,11 @@ def main():
     # I don`t want them being displayed publicly
     # Message me and I will send them
     reddit = praw.Reddit(
-        client_id="efBEqbf5qWk39g",
-        client_secret="y-Xe0yPiGYMdZJcg_2OXgVU2yMM",
+        client_id="messagemetoget",
+        client_secret="messagemetoget",
         user_agent="Positivity Bot v0.1",
         username="Positive_Counter_Bot",
-        password="thelegend27")
+        password="messagemetoget")
 
     # Confines the search to one subreddit
     # This is a test subreddit used to test bots
@@ -32,7 +32,7 @@ def process_submission(comment):
             if str(comment.id) in p.read():
                 print("Comment already processed, skipping")
                 return 0
-
+        print("Processing comment")
         # Add comment id to database
         with open("processed_threads.txt", "a") as p:
             p.write(str(comment.id) + "\n")
@@ -78,7 +78,7 @@ def process_submission(comment):
         mega = Mega()
         # The password below is a dummy
         # Message me and I will send the password
-        m = mega.login("positivitybot27@gmail.com", "thelegend27")
+        m = mega.login("positivitybot27@gmail.com", "messagemetoget")
         words_file = m.upload("words.txt")
         url = m.get_upload_link(words_file)
         message += "\n\n[Link to all words file](" + url + ")"
@@ -86,6 +86,6 @@ def process_submission(comment):
         # This is a line for testing
         # Commented line is the final one
         print(message)
-        # comment.reply(message)
+        comment.reply(message)
 
 main()

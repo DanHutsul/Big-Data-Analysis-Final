@@ -12,7 +12,6 @@
   * [Prerequisites](#prerequisites)
   * [Installation](#installation)
   * [Running the bot](#running-the-bot)
-  * [Start automatically](#start-automatically-at-reboot)
 * [Contributing](#contributing)
 * [License](#license)
 * [Contact](#contact)

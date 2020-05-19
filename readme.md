@@ -1,40 +1,56 @@
-# Positivity_bot
-[![Build Status]()]()
-[![PyPI]()]()
-[![PyPI - Python Version]()]()
-[![Coverage Status]()]()
-> A reddit bot that measures the positivity level of a comment section.
+Project Title
+One Paragraph of project description goes here
 
-Some stuff will be here shortly
+Getting Started
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
-## Usage example
+Prerequisites
+What things you need to install the software and how to install them
 
-Some screenshots that I can't show as the program isn't done yet
+Give examples
+Installing
+A step by step series of examples that tell you how to get a development env running
 
-_For more examples and usage, please refer to the [Wiki][https://github.com/DanHutsul/Data-Analysis-Final/wiki]._
+Say what the step will be
 
-## Development setup
+Give the example
+And repeat
 
-Describe how to install all development dependencies and how to run an automated test-suite of some kind. Potentially do this for multiple platforms.
+until finished
+End with an example of getting some data out of the system or using it for a little demo
 
-```sh
-make install
-npm test
-```
+Running the tests
+Explain how to run the automated tests for this system
 
-## Release History
+Break down into end to end tests
+Explain what these tests test and why
 
-* 0.0.1
-    * WIP
-## Meta
-BIG WIP
-Dan – [idonthaveatwitter]() – dan.hutsul@gmail.com
+Give an example
+And coding style tests
+Explain what these tests test and why
 
-Distributed under the XYZ license. See ``LICENSE`` for more information.
+Give an example
+Deployment
+Add additional notes about how to deploy this on a live system
 
-[https://github.com/yourname/github-link](https://github.com/DanHutsul/)
+Built With
+Dropwizard - The web framework used
+Maven - Dependency Management
+ROME - Used to generate RSS Feeds
+Contributing
+Please read CONTRIBUTING.md for details on our code of conduct, and the process for submitting pull requests to us.
 
-## Contributing
+Versioning
+We use SemVer for versioning. For the versions available, see the tags on this repository.
 
-WIP
+Authors
+Billie Thompson - Initial work - PurpleBooth
+See also the list of contributors who participated in this project.
 
+License
+This project is licensed under the MIT License - see the LICENSE.md file for details
+
+Acknowledgments
+Hat tip to anyone whose code was used
+Inspiration
+etc

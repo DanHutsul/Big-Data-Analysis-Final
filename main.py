@@ -8,12 +8,9 @@ def main():
     # Client id, secret and password are confidential
     # I don`t want them being displayed publicly
     # Message me and I will send them
-    reddit = praw.Reddit(
-        client_id="messagemetoget",
-        client_secret="messagemetoget",
-        user_agent="Positivity Bot v0.1",
-        username="Positive_Counter_Bot",
-        password="messagemetoget")
+    print('Authenticating...\n')
+    reddit = praw.Reddit('bot', user_agent='positive_counter_bot')
+    print(f'Authenticated as {reddit.user.me()}\n')
 
     # Confines the search to one subreddit
     # This is a test subreddit used to test bots

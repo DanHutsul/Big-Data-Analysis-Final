@@ -72,9 +72,7 @@ def process_submission(comment):
 
         # Uploading the file to Cloud
         mega = Mega()
-        # The password below is a dummy
-        # Message me and I will send the password
-        m = mega.login("positivitybot27@gmail.com", "messagemetoget")
+        m = mega.login("positivitybot27@gmail.com", "thelegend27")
         words_file = m.upload("words.txt")
         url = m.get_upload_link(words_file)
         message += "\n\n[Link to all words file](" + url + ")"

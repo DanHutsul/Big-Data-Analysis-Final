@@ -40,10 +40,7 @@ To host your own instance of this bot, follow these simple example steps.
 
 ### Installation
 
-
-* Clone the repo
-
-      git clone to be done
+* Download installer and followe instructions in README.txt
     
 * Create an app [here](https://www.reddit.com/prefs/apps)
    * Paste the credentials into the [praw.ini file](praw.ini)

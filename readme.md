@@ -44,9 +44,6 @@ To host your own instance of this bot, follow these simple example steps.
     
 * Create an app [here](https://www.reddit.com/prefs/apps)
    * Paste the credentials into the [praw.ini file](praw.ini)
-* Install the requirements
-
-      pip install -r requirements.txt
 
 ### Running the bot
 
